@@ -1,0 +1,16 @@
+.cont {
+  display: grid;
+  grid-template-columns: 20vw 80vw;
+}
+
+.sidebar {
+  display: grid;
+  place-items: center;
+  width: 20vw;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+  width: 80vw;
+}
