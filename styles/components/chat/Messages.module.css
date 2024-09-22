@@ -1,0 +1,25 @@
+.cont {
+}
+
+.message {
+  display: flex;
+
+  width: 80vw;
+  justify-content: flex-end;
+}
+
+.recievedMessage {
+  display: flex;
+
+  width: 80vw;
+  justify-content: flex-start;
+}
+
+.senderName {
+  border-radius: 10px;
+  background-color: chartreuse;
+  color: dimgrey;
+}
+
+.text {
+}

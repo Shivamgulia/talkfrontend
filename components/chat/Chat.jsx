@@ -43,6 +43,13 @@ function Chat(props) {
   }, [session.status]);
 
   useEffect(() => {
+    if (messageList.get(props.reciever)) {
+      const chatUser = messageList.get(props.reciever);
+      setCurrentRevieverMessages(chatUser);
+    }
+  }, [props.reciever]);
+
+  useEffect(() => {
     if (session.status !== "authenticated") {
       return;
     }

@@ -3,3 +3,18 @@
 
   width: 20vw;
 }
+
+.chat {
+  display: flex;
+
+  width: 20vw;
+}
+
+.profilephoto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.id {
+}

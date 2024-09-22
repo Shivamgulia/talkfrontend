@@ -12,15 +12,19 @@ function Sidebar(props) {
         onClick={() => {
           props.setReciever("8279373572");
         }}
+        className={styles.chat}
       >
-        8279373572
+        <img src="" alt="photo" className={styles.profilephoto} />
+        <h3 className={styles.id}>8279373572</h3>
       </div>
       <div
         onClick={() => {
           props.setReciever("8279373573");
         }}
+        className={styles.chat}
       >
-        8279373573
+        <img src="" alt="photo" className={styles.profilephoto} />
+        <h3 className={styles.id}>8279373573</h3>
       </div>
     </div>
   );
